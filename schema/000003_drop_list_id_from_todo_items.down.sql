@@ -1,0 +1,1 @@
+ALTER TABLE todo_items ADD COLUMN list_id INTEGER REFERENCES todo_lists(id) ON DELETE CASCADE;

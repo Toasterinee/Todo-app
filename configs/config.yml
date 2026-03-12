@@ -7,3 +7,7 @@ db:
   port: "5436"
   database: "postgres"
   sslmode: "disable" 
+
+redis:
+  host: "localhost"
+  port: "6379"
